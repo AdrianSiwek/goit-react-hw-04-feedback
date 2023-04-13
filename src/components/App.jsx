@@ -11,10 +11,10 @@ export const App = () => {
   
 
   const handleLeaveFeedback = event => {
-    const { option } = event.target;
+    const { name } = event.target;
     setState(prevState => ({
       ...prevState,
-      [option]: prevState[option] + 1
+      [name]: prevState[name] + 1
     }))
   }
   
