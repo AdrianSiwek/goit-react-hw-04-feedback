@@ -1,0 +1,10 @@
+.container_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info {
+    margin-bottom: 10px;
+}

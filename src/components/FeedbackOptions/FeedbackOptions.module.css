@@ -1,0 +1,11 @@
+.feed_back {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    border-radius: 15%;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(#a9bad0, #3e6faf);
+}
